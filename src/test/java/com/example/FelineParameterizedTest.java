@@ -15,7 +15,7 @@ public class FelineParameterizedTest {
     }
 
     @Parameterized.Parameters
-    public static Object[][] getCounts() {
+    public static Object[][] getParameters() {
         return new Object[][]{
                 {0},
                 {1},
