@@ -21,3 +21,15 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### Other ###
+.workbench/
+
+# IntelliJ IDEA
+.idea/
+
+# Maven build output (содержимое папки; саму папку не игнорируем, чтобы работали исключения ниже)
+target/*
+# ...кроме отчёта Jacoco — его по заданию нужно закоммитить
+!target/site/
+!target/site/jacoco/
